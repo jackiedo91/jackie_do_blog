@@ -1,12 +1,12 @@
 title: Jackie Do
 description: My Personal Blog
 author: Jackie Do
-logo: /hcz-jekyll-blog/static/img/avatar.png
+logo: /jackie_do_blog/static/img/avatar.jpg
 github: https://github.com/jackiedo91
 about: Ruby on Rails developer
 
 baseurl: "https://jackiedo91.github.io/jackie_do_blog"
-url: "https://jackiedo91.github.io/jackie_do_blog"
+url: "https://jackiedo91.github.io/jackie_do_blog/"
 
 allowsearch: true
 
