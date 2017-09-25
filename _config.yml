@@ -1,12 +1,12 @@
-title: John Smith
+title: Jackie Do
 description: My Personal Blog
-author: John Smith
+author: Jackie Do
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+github: https://github.com/jackiedo91
+about: Ruby on Rails developer
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: "https://jackiedo91.github.io/jackie_do_blog/"
+url: "https://jackiedo91.github.io/jackie_do_blog/"
 
 allowsearch: true
 
