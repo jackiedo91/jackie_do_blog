@@ -3,7 +3,14 @@
 		"name": "Boxie24",
 		"image": "boxie24.png",
 		"url": "https://www.boxie24.com/",
-		"date": "October 2016 - October 2017",
+		"date": "Oct 2016 - Oct 2017",
 		"tags": ["Ruby on Rails", "Postgresql", "CoffeeScript", "jQuery", "Linux"]
+	},
+	{
+		"name": "Boxie23",
+		"image": "boxie24.png",
+		"url": "https://www.boxie24.com/",
+		"date": "Oct 2016 - Oct 2017",
+		"tags": ["aaa", "bbb", "ccc", "ddd", "Linux"]
 	}
 ]
