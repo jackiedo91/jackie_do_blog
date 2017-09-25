@@ -5,13 +5,12 @@ logo: /jackie_do_blog/static/img/avatar.jpg
 github: https://github.com/jackiedo91
 about: Ruby on Rails developer
 
-# baseurl: "https://jackiedo91.github.io/jackie_do_blog"
-# url: "https://jackiedo91.github.io/jackie_do_blog"
 baseurl: /jackie_do_blog
 url: https://jackiedo91.github.io
 
 allowsearch: true
 
+# future: true
 disqus_shortname: aboutashu
 google_analytics: UA-72862926-1
 
