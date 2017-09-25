@@ -1,7 +1,7 @@
 [
   {
     "icon": "fa-facebook",
-    "link": ""
+    "link": "https://www.facebook.com/profile.php?id=100015183134606"
   },
   {
     "icon": "fa-twitter",
@@ -9,10 +9,6 @@
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
-  },
-  {
-    "icon": "fa-stack-exchange",
     "link": ""
   }
 ]
