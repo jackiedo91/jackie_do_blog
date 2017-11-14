@@ -2,7 +2,7 @@
 layout: post
 title: Example content for posts  
 categories: others
-published: false
+published: true
 ---
 
 
