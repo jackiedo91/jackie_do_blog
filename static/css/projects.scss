@@ -101,3 +101,19 @@ $text_size: 13px;
     }
 }
 
+
+/**
+ * //////////////////////////////////
+ * Custom CSS
+ * //////////////////////////////////
+ */
+ @media (min-width: 1200px) {
+    .header-panel {
+      .container {
+        width: 1600px;;
+      }
+    }
+    .main.outer {
+      width: 1600px;
+    }
+ }
