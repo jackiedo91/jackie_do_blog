@@ -3,7 +3,7 @@ layout: post
 title: Design patterns in ruby - Template method
 date:   2017-11-04 02:00:00
 categories: ruby
-published: true
+published: false
 ---
 
 <blockquote><p><strong>Công dụng của Template Method pattern là xây dựng một abstract base class với một bộ 'khung' có sẵn từ đó các class kế thừa sẽ thống nhất và sử dụng chung khung này .</strong></p></blockquote>
