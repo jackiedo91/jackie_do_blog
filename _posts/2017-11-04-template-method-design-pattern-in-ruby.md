@@ -6,7 +6,7 @@ categories: ruby
 published: true
 ---
 
-<blockquote><p><strong>Template Method pattern cho chúng ta khả năng thống nhất đồng thời cho phép tùy biến các chức năng có chung một luồng xử lý bằng cách sử dụng một abstract base class, định nghĩa cách template method với các methods khung bên trong nó nhờ đó các class kế thừa sẽ có luồng xử lý thống nhất và có thể tùy biến dựa vào các yêu cầu cụ thể.</strong></p></blockquote>
+<blockquote><p><strong>Template Method pattern cho chúng ta khả năng thống nhất đồng thời cho phép tùy biến các chức năng có chung một luồng xử lý bằng cách sử dụng một abstract base class, định nghĩa các template method với các methods khung bên trong nó nhờ đó các class kế thừa sẽ có luồng xử lý thống nhất và có thể tùy biến dựa vào các yêu cầu cụ thể.</strong></p></blockquote>
 
 <h2>Bài toán</h2>
 <p>Chúng ta có một class được dùng để xuất ra một report với định dạnh HTML. Sau một khoảng thời gian, ngoại trừ chức năng xuất repot HTML ban đầu thì bây giờ còn phát sinh thêm chức năng mới "xuất report bằng text" dùng chung data input được sử dụng cho HTML report. </p>
