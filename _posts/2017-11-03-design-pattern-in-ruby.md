@@ -19,7 +19,11 @@ Tình huống này cũng xảy ra với mọi lập trình viên khác, dẫn đ
 Tùy vào bài toán và hướng xử lý khác nhau mà ta áp dụng các design patterns khác nhau, dưới đây là 13 design patterns phổ biến của Ruby:
 <blockquote>
   <ol>
-    <li><a href="#" target="_blank"><b>Template Method</b></a></li>
+    <li>
+      <a href="{{ site.baseurl }}/ruby/2017/11/04/template-method-design-pattern-in-ruby.html" target="_blank">
+        <b>Template Method</b>
+      </a>
+    </li>
     <li><a href="#" target="_blank"><b>Strategy</b></a></li>
     <li><a href="#" target="_blank"><b>Observer</b></a></li>
     <li><a href="#" target="_blank"><b>Composite</b></a></li>
