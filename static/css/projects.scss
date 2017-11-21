@@ -107,7 +107,7 @@ $text_size: 13px;
  * Custom CSS
  * //////////////////////////////////
  */
- @media (min-width: 1200px) {
+ @media (min-width: 1400px) {
     .header-panel {
       .container {
         width: 1600px;;
@@ -115,6 +115,17 @@ $text_size: 13px;
     }
     .main.outer {
       width: 1600px;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    .header-panel {
+      .container {
+        width: 1200px;;
+      }
+    }
+    .main.outer {
+      width: 1200px;
     }
  }
 
