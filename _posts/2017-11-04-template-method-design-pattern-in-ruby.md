@@ -237,10 +237,10 @@ published: true
 <ul>
 <li>Cần phải thiết kế  tốt abstract base class ban đầu để tránh phải sửa chữa sau này.</li>
 <li>Dùng chung input data format giữa các class con.</li>
-<li>Sau khi khởi tạo một instance của một trong các class con thì method bị cố định.
-<br/>(không linh hoạt bằng Strategy Design Pattern) </li>
+<li>Sau khi khởi tạo một instance của một trong các class con thì method bị cố định (không linh hoạt bằng <a href="{{ site.baseurl }}/ruby/2017/12/03/template-method-stategy-in-ruby.html">Strategy Design Pattern</a>).
+</li>
 </ul>
 
 
 <br/>
-<p style="text-align: center;"> ==================== Phần Chuyên Sâu ==================== </p>
+<p style="text-align: center;"> ==================== Phần Mở Rộng ==================== </p>
