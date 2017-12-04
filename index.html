@@ -7,7 +7,7 @@ title: Blog
       {% for post in paginator.posts %}
       <div class="list-group-item">
         <div class="row-action-primary">
-          <i class="fa fa-sticky-note"></i>
+          {% include switch-post-icon.html category=post.categories.first %}
         </div>
         <div class="row-content">
           <div class="least-content">{{ post.date | date_to_string }}</div>
@@ -19,7 +19,7 @@ title: Blog
       <div class="list-group-separator"></div>
       {% endfor %}
     </div>
-   
+
 
     <!-- Pagination links -->
     {% if paginator.total_pages > 1 %}
