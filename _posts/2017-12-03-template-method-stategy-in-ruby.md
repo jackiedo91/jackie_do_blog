@@ -93,6 +93,73 @@ Vẫn bài toán xuất report với nhiều format khác nhau (HTML, plain text
 {% endhighlight %}
 
 </blockquote>
+<br/>
+<h3><i>[Update] Tối ưu một chút để pass tất cả data từ Context Class qua Strategy Classes</i></h3>
+<blockquote>
+<h4>Report Class - Context Class</h4>
+
+{% highlight ruby %}
+  class Report
+    attr_reader :title, :text
+    attr_accessor :formatter
+
+    def initialize(formatter)
+      @title = 'Monthly Report'
+      @text = [ 'Things are going', 'really, really well.' ]
+      @formatter = formatter
+    end
+
+    #Pass all data of Context Class
+    def output_report
+      @formatter.output_report(self)
+    end
+
+  end
+{% endhighlight %}
+
+<h4>Strategy base class</h4>
+
+{% highlight ruby %}
+  class Formatter
+    def output_report(context)
+      raise 'Called abtract method: output_report'
+    end
+  end
+{% endhighlight %}
+
+<h4>HTML Strategy class</h4>
+
+{% highlight ruby %}
+  class HTMLFormatter < Formatter
+    def output_report(context)
+      puts('<html>')
+      puts('  <head>')
+      puts("    <title>#{context.title}</title>")
+      puts('  </head>')
+      puts('  <body>')
+        context.text.each do |line|
+          puts("  <p>#{line}</p>")
+        end
+      puts('  </body>')
+      puts('</html>')
+    end
+  end
+{% endhighlight %}
+
+<h4>Plain text Strategy class (chiến thuật số hai: xuất Text)</h4>
+
+{% highlight ruby %}
+  class PlainTextFormatter < Formatter
+    def output_report(context)
+      puts("***** #{context.title} *****")
+      context.text.each do |line|
+        puts(line)
+      end
+    end
+  end
+{% endhighlight %}
+
+</blockquote>
 
 <br/>
 <h2>Ưu nhược điểm của Strategy</h2>
