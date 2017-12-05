@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design patterns in ruby - Observer
-date:   2017-12-05 02:00:00
+date:   2017-12-07 02:00:00
 categories: ruby
 published: true
 ---
@@ -160,6 +160,9 @@ Vẫn bài toán xuất report với nhiều format khác nhau (HTML, plain text
 {% endhighlight %}
 
 </blockquote>
+<br/>
+<h2>Cấu trúc - Strategy</h2>
+<img src="{{ site.baseurl }}/assets/ruby/strategy_diagram.png.png" alt="Strategy Diagram"/>
 
 <br/>
 <h2>Ưu nhược điểm của Strategy</h2>

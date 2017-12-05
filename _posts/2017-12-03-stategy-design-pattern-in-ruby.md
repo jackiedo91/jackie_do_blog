@@ -160,17 +160,22 @@ Vẫn bài toán xuất report với nhiều format khác nhau (HTML, plain text
 {% endhighlight %}
 
 </blockquote>
+<br/>
+<h2>Cấu trúc - Strategy</h2>
+<img src="{{ site.baseurl }}/assets/ruby/strategy_diagram.png" alt="Strategy Diagram"/>
 
 <br/>
 <h2>Ưu nhược điểm của Strategy</h2>
 <h3><i><u>Ưu điểm</u></i></h3>
 <ul>
-<li>Tách biệt data(context class) và cách xử lý (strategy classes), nhờ đó ta có thể dễ dàng thay đổi cách xử lý tại thời điểm runtime.</li>
+<li>Tách biệt data và function xử lý, không phụ thuộc vào cấu trúc kế thừa như Template Method.</li>
+<li>Với một context ta có thể lựa chọn cách xử lý rất linh hoạt bằng cách thay đổi Strategy Object, ngay cả tại thời điểm runtime.</li>
 </ul>
 
 <h3><i><u>Nhược điểm</u></i></h3>
 <ul>
 <li>Phải tìm cách pass data qua các strategy classes.</li>
+<li>Các strategy class phải làm việc chung trên một cấu trúc data.</li>
 </ul>
 
 <br/>

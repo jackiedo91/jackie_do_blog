@@ -222,7 +222,7 @@ published: true
 
 <br/>
 <h2>Cấu trúc - Template Method</h2>
-<img src="{{ site.baseurl }}/assets/template_method_diagram.png" alt="Template Method Diagram"/>
+<img src="{{ site.baseurl }}/assets/ruby/template_method_diagram.png" alt="Template Method Diagram"/>
 
 <br/>
 <h2>Ưu nhược điểm của Template Method</h2>
