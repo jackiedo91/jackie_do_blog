@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design patterns in ruby - Introduce
+title: "[Ruby] Design patterns in ruby - Introduce"
 date:   2017-11-03 01:00:00
 categories: ruby
 published: true

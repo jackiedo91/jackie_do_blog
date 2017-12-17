@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Design patterns in ruby - Observer
+title: "[Ruby] Design patterns in ruby - Observer"
 date:   2017-12-07 02:00:00
 categories: ruby
-published: true
+published: false
 ---
 
 <blockquote><p><strong>Bài trước đã nói về cách tùy biến/đa dạng hóa một luồng xử lý bằng Template Method, mỗi khi chúng ta muốn thêm một cách xử lý mới, chúng ta tạo thêm một class con(sub-class) dựa trên abtract base class ban đầu. Tuy nhiên, cách này có hạn chế cố hữu vì dựa đa phần trên việc kế thừa (inheritance): không quan trọng bạn thiết kế abtract base class (super-class) kỹ lưỡng tới đâu, mối quan hệ giữa sub-class và super-class sẽ rối dần theo thời gian, khi hệ thống phình to lên. Ngoài ra thì Template Method sẽ fix cứng cách xử lý tại "runtime", một khi đã khởi tạo một instance và truyền input data vào thì instance đó chỉ làm việc theo đúng design của một sub-class nào đó, nếu bạn muốn làm gì đó khác đi với cùng input data đó, bạn phải tạo nguyên một instance mới của một sub-class khác.

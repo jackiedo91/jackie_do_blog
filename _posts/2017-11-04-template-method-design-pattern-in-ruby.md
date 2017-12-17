@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design patterns in ruby - Template method
+title: "[Ruby] Design patterns in ruby - Template method"
 date:   2017-11-04 02:00:00
 categories: ruby
 published: true
