@@ -16,3 +16,6 @@ Hôm nay chúng ta sẽ deploy một web app được viết bằng Rails lên m
 <h2>Tạo một Rails app</h2>
 
 <h2>Config trên server VPS để chuẩn bị cho việc deploy</h2>
+
+
+<h2>Một vài câu lệnh hay dùng trong Postgresql</h2>
