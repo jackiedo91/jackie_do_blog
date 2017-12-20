@@ -79,7 +79,7 @@ Sau khi login vào Amazon Web Server
   <br/>
   IPv4 Public IP : [Your IP]
   <br/>
-  Key pair name : [Your key pem name]
+  Key pair name : [Your pem key name]
   <br/>
   <img src="{{ site.baseurl }}/assets/server/step_8.png" alt="Server Info"/>
 </ol>
