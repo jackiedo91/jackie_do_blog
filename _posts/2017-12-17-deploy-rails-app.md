@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[Server] - Deploy a Rails app"
+title: "[Server] - Deploy a Rails app to AWS"
 date:   2017-12-17 02:00:00
 categories: server
-published: true
+published: false
 ---
 
 <blockquote><p><strong>
