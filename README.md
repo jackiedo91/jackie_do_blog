@@ -7,6 +7,7 @@ This is a simple personal material theme, best suited for personal authors, prog
 
 #### Feature
 
+* ######################
 * Sitemap and XML Feed
 * Site Search 
 * Projects and tags
