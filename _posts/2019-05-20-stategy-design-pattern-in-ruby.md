@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Ruby] Design patterns in ruby - Strategy"
-date:   2017-12-03 02:00:00
+date:   2019-05-20 02:00:00
 categories: ruby
 published: true
 ---
