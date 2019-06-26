@@ -256,12 +256,14 @@ Với mỗi tiêu chí ta lại có một format hơi khác biệt để tìm ki
 ## Phân tích
 ---
 Dựa vào cấu trúc tổng quan của `Composite` ta có thể triển khai bài toán như sau:
-* Leaf: một leaf sẽ tìm dựa trên duy nhất 1 tiêu chí. Ta sẽ có 6 leaves: `Name`, `Gender`, `Birthday`, `SchoolInfo`, `AddressInfo` and `Subject`
-* Composite: là nơi sẽ nhận data theo chuẩn input format của các leaves, initialize cho các leaves và thực thi việc tạo. Ta có 1 composite: `SearchCompositor`
-* Component: Nơi nhận data từ đâu đó và format data theo input format của các leaves (hiện tại giả sử data theo chuẩn format). Ta có 1 component gốc: `Seach`
+* **Leaf**: một leaf sẽ tìm dựa trên duy nhất 1 tiêu chí. Ta sẽ có 6 leaves: `Name`, `Gender`, `Birthday`, `SchoolInfo`, `AddressInfo` and `Subject`
+* **Composite**: là nơi sẽ nhận data theo chuẩn input format của các leaves, initialize cho các leaves và thực thi việc tạo. Ta có 1 composite: `SearchCompositor`
+* **Component**: Nơi nhận data từ đâu đó và format data theo input format của các leaves (hiện tại giả sử data theo chuẩn format). Ta có 1 component gốc: `Seach`
 * Ngoài ra ta còn có 2 template classes, 1 để xây dựng cấu trúc cho các leaves `BaseLeaf`, 1 để xây dựng cấu trúc cho các composites `BaseCompositor`
 
 ### Sơ đồ
+
+<img src="{{ site.baseurl }}/assets/ruby/composite_diagram_example.png" alt="Composite Example Diagram"/>
 
 ### Code
 {% capture code-content %}
@@ -270,7 +272,7 @@ Dựa vào cấu trúc tổng quan của `Composite` ta có thể triển khai b
 module Template
   class BaseLeaf
     def search
-      attr_accessor :limited_registrant_ids
+      attr_accessor :limited_student_ids
       attr_reader :input
 
       def initialize(input, limited_student_ids = nil)
@@ -289,7 +291,7 @@ module Template
   end
 
   class BaseCompositor
-    attr_accessor :limited_registrant_ids
+    attr_accessor :limited_student_ids
     attr_reader :leaves_data, :search_leaves
 
     def initialize(leafleaves_data_list, limited_student_ids = nil)
