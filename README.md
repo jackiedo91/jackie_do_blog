@@ -19,9 +19,14 @@ Personal blog of Jackie Do
 
 ### 3) Run in Local
 
+<details><summary><i>Running Commands</i></summary>
+<p>
+
 ```ruby
 bundle exec jekyll serve
 ```
+</p>
+</details>
 
 ## Built With
 
