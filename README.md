@@ -1,23 +1,40 @@
-## HCZ Material theme
+# Personal Blog
 
-This is a simple personal material theme, best suited for personal authors, programmars, bloggers. 
+Personal blog of Jackie Do
 
-### Demo
-* [https://codeasashu.github.io/hcz-jekyll-blog](https://codeasashu.github.io/hcz-jekyll-blog/)
+## Setup
 
-#### Feature
+### 1) Prerequisites
 
-* ######################
-* Sitemap and XML Feed
-* Site Search 
-* Projects and tags
-* Paginations in homepage
-* Posts under category
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
+  Need to install `ruby` on your machine
 
-#### Screenshot
+### 2) Installing
 
-![Screenshot Home Page](https://raw.githubusercontent.com/ashutosh2k12/jekyllthemes/master/thumbnails/hcz-material.png  "Screenshot Home Page")
+  * Install required gems:
+    * `bundler`
+    * `jekyll`
+    * `jekyll-paginate`
+    * `jekyll-gist`
+
+
+### 3) Run in Local
+
+```ruby
+bundle exec jekyll serve
+```
+
+## Built With
+
+* [Jekyll](https://jekyllrb.com/) - The static blog framework
+
+
+## Authors
+
+* **Jackie Do** - *Initial work* - [Jackie Do](https://github.com/jackiedo91)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
